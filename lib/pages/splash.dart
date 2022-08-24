@@ -9,6 +9,7 @@ class ChatterHome extends StatefulWidget {
 
 class _ChatterHomeState extends State<ChatterHome>
     with TickerProviderStateMixin {
+  late AnimationController mainController;
   late Animation mainAnimation;
   @override
   void initState() {
